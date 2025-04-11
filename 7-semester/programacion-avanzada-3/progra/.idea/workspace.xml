@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="578699c6-b225-4807-be0f-55b7912e1b66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/progra.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/programacionFuncional/FunctionalExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/programacionFuncional/HigherOrderFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/programacionFuncional/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/programacionFuncional/StreamOperations.java" afterDir="false" />
-    </list>
+    <list default="true" id="578699c6-b225-4807-be0f-55b7912e1b66" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,11 +18,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="INCOMING_CHECK_STRATEGY" value="Never" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2vYaMmZXijmmj5qM9hTwPmd6NrU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,7 +34,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -52,6 +44,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,6 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1744324419941</updated>
       <workItem from="1744324421316" duration="1607000" />
+      <workItem from="1744327258830" duration="274000" />
+      <workItem from="1744373752241" duration="3348000" />
     </task>
     <servers />
   </component>
