@@ -95,13 +95,6 @@ Si deseas contribuir a este repositorio, sigue estos pasos:
 
 ---
 
-## 💬 **Contacto**
-Si tienes dudas o sugerencias, puedes contactar a los profesores responsables:  
-📧 **Jaime Salvador**  
-📧 **Zoila Ruiz**  
-
----
-
 ### ✅ **¡Bienvenido a Programación Avanzada III!**  
 📌 Explora, experimenta y desarrolla habilidades en **programación funcional** 🚀  
 
