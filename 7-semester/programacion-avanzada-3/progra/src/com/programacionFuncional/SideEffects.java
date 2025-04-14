@@ -16,6 +16,9 @@ public class SideEffects {
         System.out.println("Resultado de la función con efecto secundario: " + op.apply(5));
 
         //Ejemplo de Transparencia referencial
+        //La funcion no depende de una variable externa por lo que no se modifica
+        //Tiene un input y un output
+        //Function recibe un solo parametro y devuelve un solo parametro
         int y = 3;
         Function<Integer, Function<Integer, Integer>>
                 opDos = a -> b -> a + b;

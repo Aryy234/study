@@ -1,5 +1,7 @@
 package com.programacionFuncional;
 
+import java.util.function.Function;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("=========================================");
@@ -29,5 +31,12 @@ public class Main {
         System.out.println("-----------------------------");
         SideEffects.demonstrateSideEffects();
         System.out.println("=========================================");
+
+        // 5. TRANSPARENCIA REFERENCIAL Y FUNCIONES PURAS
+        System.out.println("5. TRANSPARENCIA REFERENCIAL Y FUNCIONES PURAS");
+        System.out.println("--------------------------------------------");
+        PureFunctionsExamples.demonstratePureFunctions();
+        System.out.println("=========================================");
+
     }
 }
