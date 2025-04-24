@@ -8,7 +8,8 @@ public class HigherOrderFunctions {
      * Devuelve una función que suma dos enteros mediante currificación
      * Ejemplo de función de orden superior y ejecución perezosa
      */
-    public static Function<Integer, Function<Integer, Integer>> getSumFunction() {
+    public static Function<Integer, Function<Integer, Integer>>
+    getSumFunction() {
         return x -> y -> x + y;
     }
 
