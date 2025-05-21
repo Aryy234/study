@@ -37,7 +37,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;programacion-avanzada-3&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Proyectos/study/7-semester/programacion-avanzada-3/progra&quot;,
@@ -78,6 +78,8 @@
       <workItem from="1745237838618" duration="6247000" />
       <workItem from="1745269826969" duration="356000" />
       <workItem from="1745443087816" duration="100000" />
+      <workItem from="1745462885245" duration="43000" />
+      <workItem from="1745843251206" duration="81000" />
     </task>
     <servers />
   </component>

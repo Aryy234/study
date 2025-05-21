@@ -1,5 +1,7 @@
 package com.programacionFuncional;
 
+import com.composicionClases.BinaryOperator;
+import com.composicionClases.TernaryOperator;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,5 +50,46 @@ public class Main {
         PartialFunctions.demonstratePartialFunctions();
         System.out.println("=========================================");
         System.out.println();
-    }
+
+        // 7. CURRIFICACIÓN
+        System.out.println("7. CURRIFICACIÓN");
+        System.out.println("-----------------------------");
+        CurriedFunctions.demonstrateCurriedFunctions();
+        System.out.println("=========================================");
+
+
+        // 8. Ejemplos de programación funcional 2
+        System.out.println("8. EJEMPLOS DE PROGRAMACIÓN FUNCIONAL 2");
+        System.out.println("-----------------------------");
+        FunctionalExamples2.demostracion();
+        System.out.println("=========================================");
+        
+        // 9. Composición de funciones
+        System.out.println("9. COMPOSICIÓN DE FUNCIONES");
+        System.out.println("-----------------------------");
+        FunctionComposition.demonstrateFunctionComposition();
+        System.out.println("=========================================");        
+        
+        // 10. Composición de funciones segunda parte
+        System.out.println("10. COMPOSICIÓN DE FUNCIONES SEGUNDA PARTE");
+        System.out.println("-----------------------------");
+        FunctionComposition2.demonstrateFunctionComposition2();
+        System.out.println("=========================================");
+
+        // 11 Interfaces operadores composición de funciones
+        System.out.println("11. INTERFACES OPERADORES COMPOSISION DE FUNCIONES");
+        System.out.println("-----------------------------");
+        BinaryOperator<Integer> binaryOperator = (a) -> (b) -> a + b;
+        TernaryOperator<Integer> ternaryOperator = (a) -> (b) -> (c) -> a + b + c;
+        System.out.println("BinaryOperator: " + binaryOperator.apply(2).apply(3)); // 5
+        System.out.println("TernaryOperator: " + ternaryOperator.apply(2).apply(3).apply(4)); // 9
+        System.out.println("=========================================");
+
+
+
+    }    // Todos los métodos relacionados con la composición se han movido
+    // a las clases FunctionComposition y FunctionComposition2
+
+    
+    
 }
